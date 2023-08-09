@@ -18,6 +18,7 @@ columns_to_drop = [
     "street",
     "sold_date",
     "city",
+    "state"
 ]
 
 # Drop specified columns from the New Jersey DataFrame
