@@ -26,7 +26,6 @@ X_scaled = scaler.fit_transform(X)
 X_train, X_val, y_train, y_val = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
 
 # Define the hyperparameters and their possible values for tuning
-# Define the hyperparameters and their possible values for tuning
 param_dist = {
     'n_estimators': [100, 200, 500, 1000],
     'max_features': ['sqrt', 'log2'],
